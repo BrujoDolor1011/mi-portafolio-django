@@ -1,0 +1,63 @@
+/* Estilos Generales */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Encabezado */
+h1 {
+    font-family: 'Playfair Display', serif;
+}
+
+/* Carrusel */
+.carousel {
+    max-width: 600px;
+    margin: auto;
+}
+
+.carousel img {
+    border-radius: 10px;
+}
+
+/* Botones del carrusel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Botón Descargar CV */
+.btn-outline-primary {
+    font-weight: 600;
+    border-radius: 50px;
+}
+
+/* Footer */
+footer {
+    margin-top: 50px;
+}
+
+/* Personaje de Café */
+footer img {
+    animation: float 2s infinite ease-in-out;
+}
+
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-5px); }
+    100% { transform: translateY(0px); }
+}
+
+/* Botón de Café */
+.btn-warning {
+    font-weight: bold;
+    border-radius: 50px;
+}
+
+/* Asegurar que la foto de perfil sea perfectamente circular */
+img.rounded-circle {
+    border-radius: 50% !important;
+    width: 200px;        /* Ajusta el tamaño de la imagen */
+    height: 200px;       /* Asegura que la altura sea igual al ancho */
+    object-fit: cover;   /* Recorta la imagen de manera proporcional */
+}
+
