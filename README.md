@@ -2,11 +2,6 @@
 
 🚀 **Portafolio web desarrollado con Django y Bootstrap**, donde presento mi **currículum**, certificados y una opción para descargar mi CV. También incluye un enlace para invitarme un café ☕.  
 
-## 📸 Capturas de Pantalla  
-
-![Portafolio Preview](static/img/preview.png)  
-*(Si tienes una imagen del proyecto, agrégala aquí y cambia la ruta del archivo.)*  
-
 ---
 
 ## 🛠️ Tecnologías Utilizadas  
